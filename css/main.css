@@ -1,6 +1,5 @@
 /* font-family: 'Noto Sans', sans-serif; */
 
-
 body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
@@ -23,7 +22,6 @@ img {
   height: auto;
 }
 
-
 .header-link {
   position: relative;
   color: #fff;
@@ -31,24 +29,23 @@ img {
 }
 
 .header-link::after {
-  position:absolute;
+  position: absolute;
   left: 0;
   bottom: -15px;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background-color: #fff;
   opacity: 0;
   transition: all 0.2s ease-in;
-
 }
 .header-link:hover::after {
-  position:absolute;
+  position: absolute;
   left: 0;
   bottom: -5px;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background-color: #f72464;
@@ -59,7 +56,7 @@ img {
 .about-link {
   display: block;
   position: relative;
-  transition: transform 0.5s cubic-bezier(0.695, 0.490, 0.245, 1.645);
+  transition: transform 0.5s cubic-bezier(0.695, 0.49, 0.245, 1.645);
 }
 .about-link:hover {
   transform: translateY(-15%);
@@ -200,8 +197,6 @@ img {
   margin-bottom: 40px;
 }
 
-
-
 /* Header */
 
 .header-nav {
@@ -306,8 +301,6 @@ img {
   max-width: 270px;
 }
 
-
-
 .product-link {
   display: inline-block;
   color: #000;
@@ -373,7 +366,7 @@ img {
 .buylike {
   background: url("./../img/background/buylike.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .wrapper-buylike {
